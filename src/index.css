@@ -1,0 +1,20 @@
+:root {
+  /* colors */
+  --black: #000000;
+  --white: #ffffff;
+  --gray: rgb(38, 50, 56);
+  --brown: #3e2723;
+  --red: #e51c23;
+  --orange: #ff6f00;
+  --yellow: #ffeb3b;
+  --green: #259b24;
+  --lightblue: #03a9f4;
+  --blue: #2a36b1;
+  --purple: #4a148c;
+}
+
+#root {
+  background: linear-gradient(to bottom,rgba(38,50,56,0.7),rgba(38,50,56,0.7)), 
+              url('../public/bg.png'), repeat;
+  min-height: 100vh;
+}
